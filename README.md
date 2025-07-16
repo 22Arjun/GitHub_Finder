@@ -25,11 +25,9 @@ This app allows users to search for any GitHub profile and view real-time data l
 
 ---
 
-## 🚀 Getting Started
+## 📷 Screenshots
 
-Download or clone the repository, then open the `index.html` file in your browser to start using the app.
-
----
+![App Screenshot](https://github.com/22Arjun/GitHub_Finder/blob/main/Screenshot.png)
 
 ## 📌 Future Enhancements
 
