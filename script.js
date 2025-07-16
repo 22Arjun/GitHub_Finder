@@ -35,7 +35,7 @@ async function searchUser() {
     profileContainer.classList.add("hidden");
     errorContainer.classList.add("hidden");
 
-    // https://api.github.com/users/burakorkmez
+    // https://api.github.com/users/22Arjun
     const response = await fetch(`https://api.github.com/users/${username}`);
     if (!response.ok) throw new Error("User not found");
 
@@ -154,12 +154,12 @@ function showError() {
 }
 
 function formatDate(dateString) {
-  return new Date(dateString).toLocaleDateString("en-US", {
+  return new Date(dateString).toLocaleDateString("en-IN", {
     year: "numeric",
     month: "short",
     day: "numeric",
   });
 }
 
-searchInput.value = "burakorkmez";
+searchInput.value = "22Arjun";
 searchUser();
